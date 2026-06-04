@@ -3,65 +3,120 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Ntswaki Kekana | Frontend Developer</title>
-  <link rel="stylesheet" href="styles.css" />
+  <title>WorldProtrade | Global Trading Solutions</title>
+  <link rel="stylesheet" href="styles.css"/>
 </head>
+
 <body>
-  <header>
-    <nav>
-      <h1>Ntswaki Kekana</h1>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="container">
+      <h1 class="logo">WorldProtrade</h1>
+
+      <nav>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <a class="btn" href="#contact">Get Quote</a>
+    </div>
   </header>
 
+  <!-- HERO -->
   <section class="hero">
-    <h2>Hello, I'm Ntswaki 👋</h2>
-    <p>A qualified Frontend Developer from ALX</p>
-    <p>I build beautiful and responsive websites using HTML, CSS, and JavaScript.</p>
-  </section>
+    <div class="container hero-grid">
+      
+      <div class="hero-text">
+        <h2>Global Trading Solutions You Can Trust</h2>
+        <p>
+          WorldProtrade connects businesses to reliable import, export,
+          logistics, and supply chain solutions worldwide.
+        </p>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>I graduated from ALX in November 2024. I’m passionate about clean design, accessibility, and great UX/UI. While I don't have job experience yet, I'm eager to contribute to real-world projects and grow in the tech industry.</p>
-  </section>
+        <div class="hero-buttons">
+          <a href="#contact" class="btn-primary">Request a Quote</a>
+          <a href="#services" class="btn-secondary">Our Services</a>
+        </div>
+      </div>
 
-  <section id="tech-stack">
-	  <h2>Tech-Stack</h2>
-	  <ul>HTML</ul>
-	  <ul>CSS</ul>
-	  <ul>JavaScript</ul>
-	  <ul>C-programming</ul>
-	  <ul>Python</ul>
-	  <ul>Node.js</ul>
-	  <ul>React</ul>
-	  <ul>TailwindCSS</ul>
-	  <ul>MongoDB</ul>
-  </section>
+      <div class="hero-image">
+        <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d" alt="Global trade"/>
+      </div>
 
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="project">
-      <h3>My Portfolio Website</h3>
-      <p>A responsive personal website showcasing my frontend skills.</p>
-      <a href="#">Live</a> | <a href="#">GitHub</a>
     </div>
-    <!-- Add more projects later -->
   </section>
 
-  <section id="contact">
-    <h2>Contact Me</h2>
-    <p>Email: ntswakikekana1934@gmail.com</p>
-    <p>LinkedIn: <a href="#">Your LinkedIn</a></p>
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2>About WorldProtrade</h2>
+      <p>
+        We are a global trading company specializing in connecting suppliers,
+        buyers, and logistics partners across international markets with secure
+        and efficient trade solutions.
+      </p>
+    </div>
   </section>
 
+  <!-- SERVICES -->
+  <section id="services" class="section gray">
+    <div class="container">
+      <h2>Our Services</h2>
+
+      <div class="grid">
+        <div class="card">Import & Export Trading</div>
+        <div class="card">Logistics Management</div>
+        <div class="card">Supply Chain Consulting</div>
+        <div class="card">Market Brokerage</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY US -->
+  <section class="section">
+    <div class="container">
+      <h2>Why Choose Us</h2>
+
+      <div class="grid">
+        <div class="card">
+          <h3>Global Network</h3>
+          <p>Trusted partners worldwide</p>
+        </div>
+
+        <div class="card">
+          <h3>Secure Transactions</h3>
+          <p>Safe and verified processes</p>
+        </div>
+
+        <div class="card">
+          <h3>Fast Delivery</h3>
+          <p>Efficient logistics systems</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section contact">
+    <div class="container">
+      <h2>Get in Touch</h2>
+
+      <form>
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Email Address" required />
+        <textarea placeholder="Your Message" rows="5" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
   <footer>
-    <p>&copy; 2025 Ntswaki Kekana</p>
+    <p>© 2026 WorldProtrade. All rights reserved.</p>
   </footer>
-
-  <script src="script.js"></script>
+<script src="Script.js"></script>
 </body>
 </html>
